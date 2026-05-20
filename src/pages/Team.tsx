@@ -157,84 +157,145 @@ export default function Team() {
 
             </div>
 
-            {/* CHAIRMAN PROFILE */}
+            {/* ================= CHAIRMAN PROFILE ================= */}
 
-            <section className="chairman-profile">
+<section className="chairman-profile">
 
-                <div className="container">
+    <div className="container">
 
-                    <div className="profile-header">
+        <div className="profile-header">
 
-                        <span className="team-tag">
-                            LEADERSHIP PROFILE
-                        </span>
+            <span className="team-tag">
+                LEADERSHIP PROFILE
+            </span>
 
-                        <h2>
-                            Our Chairman
-                        </h2>
+            <h2>
+                Our Chairman
+            </h2>
 
-                    </div>
+            <p>
+                Visionary leadership driving innovation,
+                philanthropy and sustainable transformation
+                across Africa and beyond.
+            </p>
 
-                    <div className="profile-content">
+        </div>
 
-                        <div className="profile-image">
+        {/* MAIN PROFILE CARD */}
 
-                            <img
-                                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1200"
-                                alt="Eric Chamchoum"
-                            />
+        <div className="chairman-card">
 
-                        </div>
+            {/* TOP */}
 
-                        <div className="profile-text">
+            <div className="chairman-top">
 
-                            <h3>
-                                Eric Chamchoum
-                            </h3>
+                <div className="chairman-avatar">
+                    EC
+                </div>
 
-                            <h4>
-                                Chairman — SamPro Group
-                            </h4>
+                <div>
 
-                            <p>
-                                Eric Chamchoum is a renowned entrepreneur,
-                                philanthropist, writer, lecturer, artist and
-                                technology enthusiast raised in West Africa.
-                            </p>
+                    <h3>
+                        Eric Chamchoum
+                    </h3>
 
-                            <p>
-                                From an early age, he demonstrated exceptional
-                                passion for technology and business, building
-                                electronic equipment from scrap materials and
-                                immersing himself in innovation and enterprise.
-                            </p>
-
-                            <p>
-                                Through his visionary leadership, SamPro Group
-                                has expanded its reach across Africa and Asia,
-                                delivering excellence in technology,
-                                telecommunications and strategic business services.
-                            </p>
-
-                            <p>
-                                His dedication to education, philanthropy and
-                                African development continues to inspire positive
-                                transformation and sustainable growth globally.
-                            </p>
-
-                            <blockquote>
-                                “Education illuminates the path to Africa’s future,
-                                guiding its economic independence with precision
-                                and proficiency.”
-                            </blockquote>
-
-                        </div>
-
-                    </div>
+                    <h4>
+                        Chairman — SamPro Group
+                    </h4>
 
                 </div>
 
-            </section>
+            </div>
+
+            {/* BIO */}
+
+            <div className="chairman-bio">
+
+                <p>
+                    Eric Chamchoum is a renowned entrepreneur,
+                    philanthropist, writer, lecturer, artist and
+                    technology aficionado raised in the vibrant
+                    landscapes of West Africa.
+                </p>
+
+                <p>
+                    From an early age, he demonstrated exceptional
+                    passion for business and technology, building
+                    electronic equipment from scrap materials and
+                    immersing himself in innovation and enterprise.
+                </p>
+
+                <p>
+                    Through his artistic creativity and entrepreneurial
+                    vision, he expanded into automobile design,
+                    acclaimed paintings and luxury fragrance creation
+                    under the exclusive brand “Al Jawaher”.
+                </p>
+
+                <p>
+                    Educated in West Africa, Switzerland and California,
+                    USA, Eric returned to Africa with a strong commitment
+                    to education, philanthropy and youth empowerment.
+                </p>
+
+                <p>
+                    As Chairman of SamPro Group, he has successfully
+                    expanded operations across Africa and Asia,
+                    delivering excellence in technology,
+                    telecommunications and strategic business services.
+                </p>
+
+            </div>
+
+            {/* HIGHLIGHTS */}
+
+            <div className="chairman-highlights">
+
+                <div className="highlight-card">
+                    <h5>Entrepreneurship</h5>
+                </div>
+
+                <div className="highlight-card">
+                    <h5>Technology Innovation</h5>
+                </div>
+
+                <div className="highlight-card">
+                    <h5>Philanthropy</h5>
+                </div>
+
+                <div className="highlight-card">
+                    <h5>Education Advocacy</h5>
+                </div>
+
+                <div className="highlight-card">
+                    <h5>Leadership</h5>
+                </div>
+
+                <div className="highlight-card">
+                    <h5>Global Partnerships</h5>
+                </div>
+
+            </div>
+
+            {/* QUOTE */}
+
+            <div className="chairman-quote">
+
+                <span>“</span>
+
+                <p>
+                    Education illuminates the path to Africa’s future,
+                    guiding its economic independence with precision
+                    and proficiency.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
         </section>
     );
