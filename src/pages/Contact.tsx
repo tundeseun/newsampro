@@ -52,44 +52,44 @@ export default function Contact() {
 
                         <div className="contact-items">
 
-                            <div className="contact-item">
+                            {/* <div className="contact-item"> */}
 
-                                <div className="contact-icon">
+                                {/* <div className="contact-icon">
                                     📧
-                                </div>
+                                </div> */}
 
-                                <div>
+                                {/* <div>
                                     <h4>Email Address</h4>
                                     <span>info@sam-pro.com</span>
-                                </div>
+                                </div> */}
 
-                            </div>
+                            {/* </div> */}
 
-                            <div className="contact-item">
+                            {/* <div className="contact-item"> */}
 
-                                <div className="contact-icon">
+                                {/* <div className="contact-icon">
                                     📞
                                 </div>
 
                                 <div>
                                     <h4>Phone Number</h4>
                                     <span>+234 800 000 0000</span>
-                                </div>
+                                </div> */}
 
-                            </div>
+                            {/* </div> */}
 
-                            <div className="contact-item">
+                            {/* <div className="contact-item"> */}
 
-                                <div className="contact-icon">
+                                {/* <div className="contact-icon">
                                     📍
                                 </div>
 
                                 <div>
                                     <h4>Office Address</h4>
                                     <span>Lagos, Nigeria</span>
-                                </div>
+                                </div> */}
 
-                            </div>
+                            {/* </div> */}
 
                             <div className="contact-item">
 

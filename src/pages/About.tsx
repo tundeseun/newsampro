@@ -336,7 +336,7 @@ export default function About() {
                                 the Middle East and global markets.
                             </p>
 
-                            <div className="presence-locations">
+                            {/* <div className="presence-locations">
 
                                 <div className="location-card">
                                     Africa
@@ -350,7 +350,7 @@ export default function About() {
                                     Global Partnerships
                                 </div>
 
-                            </div>
+                            </div> */}
 
                         </div>
 

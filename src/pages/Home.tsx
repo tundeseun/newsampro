@@ -236,14 +236,15 @@ export default function Home() {
 
             <div className="strength-card">
 
-                <div className="strength-image">
-                    <img
-                        src="https://images.unsplash.com/photo-1573497491765-55d7f0f0c9f0?q=80&w=1200"
-                        alt="Business Development"
-                    />
+               <div className="strength-image">
+    <img
+        loading="lazy"
+        src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+        alt="Business Development"
+    />
 
-                    <div className="strength-overlay"></div>
-                </div>
+    <div className="strength-overlay"></div>
+</div>
 
                 <div className="strength-content">
 

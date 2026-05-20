@@ -71,7 +71,7 @@ export default function Footer() {
                 </div>
 
                 {/* CONTACT */}
-                <div className="footer-box">
+                {/* <div className="footer-box">
 
                     <h3>Contact</h3>
 
@@ -81,7 +81,7 @@ export default function Footer() {
                         <li>Lagos, Nigeria</li>
                     </ul>
 
-                </div>
+                </div> */}
 
             </div>
 
