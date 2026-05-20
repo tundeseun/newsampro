@@ -2420,3 +2420,349 @@ a {
     }
 
 }
+/* =========================================================
+   FULL RESPONSIVE FIXES
+========================================================= */
+
+/* Prevent horizontal scroll globally */
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Images responsive */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* =========================================================
+   TABLET RESPONSIVE
+========================================================= */
+
+@media (max-width: 992px) {
+
+    /* NAVBAR */
+
+    .nav-wrapper {
+        flex-direction: column;
+        gap: 18px;
+        padding: 10px 0;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .menu a {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    /* HERO */
+
+    .hero-container,
+    .about-grid,
+    .mission-grid,
+    .presence-box,
+    .profile-content,
+    .why-intro,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-left,
+    .hero-right {
+        text-align: center;
+    }
+
+    .hero-left p,
+    .about-hero-content p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-right img {
+        height: auto;
+        max-height: 420px;
+    }
+
+    /* HEADINGS */
+
+    .hero-left h1,
+    .about-hero-content h1,
+    .companies-hero h1,
+    .team-hero h1,
+    .why-hero h1,
+    .contact-hero h1,
+    .strength-header h2,
+    .section-header h2 {
+        font-size: 52px;
+    }
+
+    /* FOOTER */
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =========================================================
+   MOBILE RESPONSIVE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 94%;
+    }
+
+    /* NAVBAR */
+
+    .navbar {
+        padding: 12px 0;
+    }
+
+    .nav-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .logo {
+        height: 52px;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .menu a {
+        font-size: 13px;
+        padding: 10px 12px;
+    }
+
+    /* HERO */
+
+    .hero,
+    .about-hero,
+    .companies-hero,
+    .team-hero,
+    .why-hero,
+    .contact-hero {
+        padding: 80px 0 60px;
+    }
+
+    .hero-container {
+        gap: 35px;
+    }
+
+    .hero-left h1,
+    .about-hero-content h1,
+    .companies-hero h1,
+    .team-hero h1,
+    .why-hero h1,
+    .contact-hero h1,
+    .strength-header h2,
+    .section-header h2 {
+        font-size: 38px;
+        line-height: 1.2;
+        letter-spacing: -1px;
+    }
+
+    .hero-left p,
+    .about-hero-content p,
+    .companies-hero p,
+    .team-hero p,
+    .why-hero p,
+    .contact-hero p,
+    .section-header p,
+    .strength-header p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    .hero-right img,
+    .about-image img,
+    .mission-image img,
+    .presence-image img,
+    .profile-image img {
+        height: auto;
+        max-height: 350px;
+    }
+
+    /* SECTIONS */
+
+    .about-section,
+    .mission-section,
+    .presence-section,
+    .strength-section,
+    .chairman-profile,
+    .about-strength {
+        padding: 70px 0;
+    }
+
+    /* STATS */
+
+    .about-stats,
+    .mission-features,
+    .strength-grid,
+    .strength-modern-grid,
+    .companies-grid,
+    .team-grid,
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* CARDS */
+
+    .strength-card,
+    .modern-strength-card,
+    .why-card,
+    .company-card,
+    .team-card,
+    .contact-info-card,
+    .contact-form-card {
+        border-radius: 22px;
+    }
+
+    /* CONTACT */
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        padding: 24px 0 12px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .footer-box h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .footer-bottom-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* COMPANY CARDS */
+
+    .company-logo-box {
+        height: 180px;
+        padding: 20px;
+    }
+
+    .company-content {
+        padding: 24px;
+    }
+
+    .company-content h3 {
+        font-size: 22px;
+    }
+
+    /* TEAM */
+
+    .profile-text h3 {
+        font-size: 28px;
+    }
+
+    .profile-header h2 {
+        font-size: 38px;
+    }
+
+    /* CONTACT */
+
+    .contact-info-card,
+    .contact-form-card {
+        padding: 28px;
+    }
+
+    .contact-info-card h2,
+    .contact-form-card h2 {
+        font-size: 30px;
+    }
+}
+
+/* =========================================================
+   SMALL MOBILE DEVICES
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .hero-left h1,
+    .about-hero-content h1,
+    .companies-hero h1,
+    .team-hero h1,
+    .why-hero h1,
+    .contact-hero h1,
+    .strength-header h2,
+    .section-header h2 {
+        font-size: 30px;
+    }
+
+    .menu {
+        gap: 6px;
+    }
+
+    .menu a {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .hero-left p,
+    .about-hero-content p,
+    .section-header p,
+    .strength-header p {
+        font-size: 15px;
+    }
+
+    .company-content h3,
+    .modern-strength-card h3,
+    .why-card h3 {
+        font-size: 22px;
+    }
+
+    .footer-box p,
+    .footer-box li,
+    .footer-box a {
+        font-size: 12px;
+    }
+}
