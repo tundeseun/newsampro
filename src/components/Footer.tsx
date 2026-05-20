@@ -94,9 +94,9 @@ export default function Footer() {
                         © 2026 SamPro Holding Limited
                     </p>
 
-                    <span>
+                    {/* <span>
                         Designed with Excellence
-                    </span>
+                    </span> */}
 
                 </div>
 
