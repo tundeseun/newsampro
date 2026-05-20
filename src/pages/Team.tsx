@@ -178,7 +178,7 @@ export default function Team() {
 
             </div>
 
-          {/* ================= MODAL ================= */}
+         {/* ================= PREMIUM MODAL ================= */}
 
 {activeModal && (
 
@@ -192,7 +192,7 @@ export default function Team() {
             onClick={(e) => e.stopPropagation()}
         >
 
-            {/* CLOSE */}
+            {/* CLOSE BUTTON */}
 
             <button
                 className="close-modal"
@@ -201,19 +201,21 @@ export default function Team() {
                 ×
             </button>
 
-            {/* ================= CHAIRMAN ================= */}
+            {/* =====================================================
+                CHAIRMAN
+            ===================================================== */}
 
             {activeModal === "chairman" && (
 
                 <div>
 
-                    <div className="modal-header chairman-header">
+                    <div className="modal-header">
 
                         <div className="modal-avatar">
                             EC
                         </div>
 
-                        <div>
+                        <div className="modal-header-content">
 
                             <span className="modal-role">
                                 Chairman
@@ -231,108 +233,122 @@ export default function Team() {
 
                     </div>
 
+                    <div className="modal-divider"></div>
+
                     <div className="modal-content">
 
                         <p>
                             Eric Chamchoum, a renowned entrepreneur,
-                            philanthropist, writer, lecturer, artist and
-                            technology aficionado, was raised in the vibrant
-                            landscapes of West Africa.
+                            philanthropist, writer, lecturer, artist
+                            and technology aficionado, was raised in
+                            the vibrant landscapes of West Africa.
                         </p>
 
                         <p>
-                            From an early age, it was evident that Eric
-                            possessed an innate passion for business and
-                            technology. As a teenager, he honed his skills
-                            by building electronic equipment from scrap
-                            and selling it, immersing himself in the
-                            intricacies of the industry.
+                            From an early age, it was evident that
+                            Eric possessed an innate passion for
+                            business and technology. As a teenager,
+                            he honed his skills by building electronic
+                            equipment from scrap and selling it,
+                            immersing himself in the intricacies
+                            of the industry.
                         </p>
 
                         <p>
-                            Throughout his illustrious journey, his innate
-                            artistic flair effortlessly guided him towards
-                            the realm of car design and the creation of
-                            acclaimed paintings.
+                            Throughout his illustrious journey,
+                            his innate artistic flair effortlessly
+                            guided him towards the realm of car design
+                            and the creation of acclaimed paintings.
                         </p>
 
                         <p>
-                            Building upon these triumphs, he has now embarked
-                            on his latest endeavor — crafting an extraordinary
-                            collection of exquisitely exclusive perfumes,
+                            Building upon these triumphs, he has now
+                            embarked on his latest endeavor —
+                            crafting an extraordinary collection of
+                            exquisitely exclusive perfumes,
                             aptly named Al Jawaher.
                         </p>
 
                         <p>
-                            He was educated in West Africa and Switzerland.
-                            Seizing an opportunity to grow both personally
-                            and professionally, Eric journeyed to California,
-                            USA to further pursue his studies and ambitions.
+                            He was educated in West Africa and
+                            Switzerland. Seizing an opportunity to
+                            grow both personally and professionally,
+                            Eric journeyed to California, USA to
+                            further pursue his studies and ambitions.
                         </p>
 
                         <p>
-                            Years later and with his heart connected to his
-                            West African roots, he was prompted to return
-                            and dedicate himself to addressing the challenges
-                            faced by Africans in the realm of education.
+                            Years later and with his heart connected
+                            to his West African roots, he was prompted
+                            to return and dedicate himself to
+                            addressing the challenges faced by Africans
+                            in the realm of education.
                         </p>
 
                         <p>
-                            His unwavering commitment to this cause led him
-                            down the philanthropic path, where he established
-                            numerous charitable projects aimed at providing
-                            young West Africans with access to education.
+                            His unwavering commitment to this cause
+                            led him down the philanthropic path,
+                            where he established numerous charitable
+                            projects aimed at providing young
+                            West Africans with access to education.
                         </p>
 
                         <p>
-                            As the Chairman of SamPro Group, a technology
-                            and telecom business that has extended its reach
-                            across several countries in Africa and Asia,
-                            Eric continues to champion innovation and progress.
+                            As the Chairman of SamPro Group,
+                            a technology and telecom business
+                            that has extended its reach across
+                            several countries in Africa and Asia,
+                            Eric continues to champion innovation
+                            and progress.
                         </p>
 
                         <p>
-                            Through his visionary leadership and vast expertise,
-                            he has empowered communities and transformed lives.
+                            Through his visionary leadership and
+                            vast expertise, he has empowered
+                            communities and transformed lives.
                         </p>
 
                         <blockquote>
-                            “Education illuminates the path to Africa’s future,
-                            guiding its economic independence with precision
-                            and proficiency.”
+                            “Education illuminates the path to
+                            Africa’s future, guiding its economic
+                            independence with precision and
+                            proficiency.”
                         </blockquote>
 
-                        {/* FRENCH SECTION */}
+                        {/* ================= FRENCH SECTION ================= */}
 
                         <div className="language-divider">
                             Français
                         </div>
 
                         <p>
-                            Eric Chamchoum, entrepreneur, philanthrope,
-                            écrivain, conférencier, artiste et passionné
-                            de technologie renommé, a grandi dans les
-                            paysages vibrants de l’Afrique de l’Ouest.
+                            Eric Chamchoum, entrepreneur,
+                            philanthrope, écrivain, conférencier,
+                            artiste et passionné de technologie
+                            renommé, a grandi dans les paysages
+                            vibrants de l’Afrique de l’Ouest.
                         </p>
 
                         <p>
-                            Dès son plus jeune âge, il était évident qu’Eric
-                            possédait une passion innée pour les affaires
-                            et la technologie.
+                            Dès son plus jeune âge, il était évident
+                            qu’Eric possédait une passion innée
+                            pour les affaires et la technologie.
                         </p>
 
                         <p>
-                            Son engagement indéfectible en faveur de
-                            l’éducation l’a conduit sur la voie de la
-                            philanthropie où il a lancé plusieurs projets
-                            caritatifs visant à permettre aux jeunes
-                            ouest-africains d’accéder à l’éducation.
+                            Son engagement indéfectible en faveur
+                            de l’éducation l’a conduit sur la voie
+                            de la philanthropie où il a lancé
+                            plusieurs projets caritatifs visant
+                            à permettre aux jeunes ouest-africains
+                            d’accéder à l’éducation.
                         </p>
 
                         <p>
-                            Grâce à son leadership visionnaire et à sa vaste
-                            expertise, il continue de promouvoir l’innovation,
-                            le progrès et l’autonomisation des communautés.
+                            Grâce à son leadership visionnaire et
+                            à sa vaste expertise, il continue de
+                            promouvoir l’innovation, le progrès
+                            et l’autonomisation des communautés.
                         </p>
 
                     </div>
@@ -341,7 +357,9 @@ export default function Team() {
 
             )}
 
-            {/* ================= CEO ================= */}
+            {/* =====================================================
+                CEO
+            ===================================================== */}
 
             {activeModal === "ceo" && (
 
@@ -353,7 +371,7 @@ export default function Team() {
                             FF
                         </div>
 
-                        <div>
+                        <div className="modal-header-content">
 
                             <span className="modal-role">
                                 Group CEO
@@ -371,58 +389,61 @@ export default function Team() {
 
                     </div>
 
+                    <div className="modal-divider"></div>
+
                     <div className="modal-content">
 
                         <p>
-                            Husband, Father, Entrepreneur, Group CEO,
-                            Africapitalist, Believer & Visionary.
+                            Husband, Father, Entrepreneur,
+                            Group CEO, Africapitalist,
+                            Believer & Visionary.
                         </p>
 
                         <p>
-                            With a rich and diverse work history in the Trade,
-                            Technology, ICT business, regulation, and Government
-                            consultancy sectors, Fayad Fayad brings a wealth
+                            With a rich and diverse work history
+                            in the Trade, Technology, ICT business,
+                            regulation, and Government consultancy
+                            sectors, Fayad Fayad brings a wealth
                             of experience to the table.
                         </p>
 
                         <p>
-                            Having worked extensively in Africa, Asia,
-                            the Gulf region, and the Middle East, his deep
-                            understanding of the industry enables him to
-                            navigate complex service delivery landscapes.
+                            Having worked extensively in Africa,
+                            Asia, the Gulf region, and the Middle East,
+                            his deep understanding of the industry
+                            enables him to navigate complex
+                            service delivery landscapes.
                         </p>
 
                         <p>
-                            Fayad is a highly experienced consultant who has
-                            worked extensively with government institutions
-                            in Africa.
+                            Fayad is a highly experienced consultant
+                            who has worked extensively with government
+                            institutions in Africa.
                         </p>
 
                         <p>
-                            His consultancy services encompass telecom services,
-                            software development, revenue assurance,
-                            regulations, mergers & acquisitions,
-                            infrastructural and environmental regulations.
+                            His consultancy services encompass
+                            telecom services, software development,
+                            revenue assurance, regulations,
+                            mergers & acquisitions,
+                            infrastructural and environmental
+                            regulations.
                         </p>
 
                         <p>
-                            He sits on the Panel of Advisory and Strategic
-                            Partner to the Nigerian Arab Gulf Chamber of
-                            Commerce (NAGCC), Vice Chairman of the Economic
-                            Advisory board to the Commonwealth of Dominica
-                            and Executive Board Member of Leaders Without
-                            Borders Development Centre.
-                        </p>
-
-                        <p>
-                            Fayad possesses exceptional expertise in Public
-                            Relations, strategic communication and stakeholder
-                            management across both public and private sectors.
+                            He sits on the Panel of Advisory and
+                            Strategic Partner to the Nigerian Arab
+                            Gulf Chamber of Commerce (NAGCC),
+                            Vice Chairman of the Economic Advisory
+                            board to the Commonwealth of Dominica
+                            and Executive Board Member of Leaders
+                            Without Borders Development Centre.
                         </p>
 
                         <blockquote>
-                            A visionary leader passionate about Africa’s
-                            transformation, innovation and sustainable growth.
+                            A visionary leader passionate about
+                            Africa’s transformation, innovation
+                            and sustainable growth.
                         </blockquote>
 
                     </div>
@@ -431,7 +452,9 @@ export default function Team() {
 
             )}
 
-            {/* ================= CTO ================= */}
+            {/* =====================================================
+                CTO
+            ===================================================== */}
 
             {activeModal === "cto" && (
 
@@ -443,7 +466,7 @@ export default function Team() {
                             OA
                         </div>
 
-                        <div>
+                        <div className="modal-header-content">
 
                             <span className="modal-role">
                                 Chief Technology Officer
@@ -461,35 +484,42 @@ export default function Team() {
 
                     </div>
 
+                    <div className="modal-divider"></div>
+
                     <div className="modal-content">
 
                         <p>
-                            Oluwabunmi Abiodun is a certified consultant
-                            and member of world class group with extensive
-                            experience applying TMF standards.
+                            Oluwabunmi Abiodun is a certified
+                            consultant and member of world class
+                            group with extensive experience applying
+                            TMF standards.
                         </p>
 
                         <p>
-                            He has successfully managed several large
-                            business transformation projects involving
-                            billing, fulfilment and assurance systems.
+                            He has successfully managed several
+                            large business transformation projects
+                            involving billing, fulfilment and
+                            assurance systems.
                         </p>
 
                         <p>
-                            Abiodun specializes in solution architecture,
-                            customer experience, telecom innovation and
-                            enterprise digital transformation.
+                            Abiodun specializes in solution
+                            architecture, customer experience,
+                            telecom innovation and enterprise
+                            digital transformation.
                         </p>
 
                         <p>
-                            He helps CSPs and suppliers rapidly transform
-                            business operations, IT systems and ecosystems.
+                            He helps CSPs and suppliers rapidly
+                            transform business operations,
+                            IT systems and ecosystems.
                         </p>
 
                         <p>
                             His expertise includes order management,
                             billing, fulfilment, assurance processes,
-                            Omni-channel systems and big data-driven decisions.
+                            Omni-channel systems and big data-driven
+                            decisions.
                         </p>
 
                     </div>
@@ -498,7 +528,9 @@ export default function Team() {
 
             )}
 
-            {/* ================= CMO ================= */}
+            {/* =====================================================
+                CMO
+            ===================================================== */}
 
             {activeModal === "cmo" && (
 
@@ -510,7 +542,7 @@ export default function Team() {
                             RF
                         </div>
 
-                        <div>
+                        <div className="modal-header-content">
 
                             <span className="modal-role">
                                 Chief Marketing Officer
@@ -528,35 +560,41 @@ export default function Team() {
 
                     </div>
 
+                    <div className="modal-divider"></div>
+
                     <div className="modal-content">
 
                         <p>
-                            International background in the field of
-                            Marketing management and business development.
+                            International background in the field
+                            of Marketing management and business
+                            development.
                         </p>
 
                         <p>
-                            Graduated from University of Economics Vienna,
-                            Austria and attended professional development
-                            programs in Management & Leadership at Cornell
-                            University, New York, USA.
+                            Graduated from University of Economics
+                            Vienna, Austria and attended professional
+                            development programs in Management &
+                            Leadership at Cornell University,
+                            New York, USA.
                         </p>
 
                         <p>
-                            Joined SamPro Holding over 8 years ago and has
-                            contributed significantly to its growth across
-                            telecommunications, IT and revenue assurance.
+                            Joined SamPro Holding over 8 years ago
+                            and has contributed significantly to its
+                            growth across telecommunications,
+                            IT and revenue assurance.
                         </p>
 
                         <p>
                             He continues to drive global marketing,
-                            business positioning and enterprise branding
-                            strategies for SamPro Group.
+                            business positioning and enterprise
+                            branding strategies for SamPro Group.
                         </p>
 
                         <blockquote>
-                            “We strive to exceed expectations by delivering
-                            secure, unique and robust solutions.”
+                            “We strive to exceed expectations
+                            by delivering secure, unique and
+                            robust solutions.”
                         </blockquote>
 
                     </div>
