@@ -315,42 +315,7 @@ export default function Team() {
                             proficiency.”
                         </blockquote>
 
-                        {/* ================= FRENCH SECTION ================= */}
-
-                        <div className="language-divider">
-                            Français
-                        </div>
-
-                        <p>
-                            Eric Chamchoum, entrepreneur,
-                            philanthrope, écrivain, conférencier,
-                            artiste et passionné de technologie
-                            renommé, a grandi dans les paysages
-                            vibrants de l’Afrique de l’Ouest.
-                        </p>
-
-                        <p>
-                            Dès son plus jeune âge, il était évident
-                            qu’Eric possédait une passion innée
-                            pour les affaires et la technologie.
-                        </p>
-
-                        <p>
-                            Son engagement indéfectible en faveur
-                            de l’éducation l’a conduit sur la voie
-                            de la philanthropie où il a lancé
-                            plusieurs projets caritatifs visant
-                            à permettre aux jeunes ouest-africains
-                            d’accéder à l’éducation.
-                        </p>
-
-                        <p>
-                            Grâce à son leadership visionnaire et
-                            à sa vaste expertise, il continue de
-                            promouvoir l’innovation, le progrès
-                            et l’autonomisation des communautés.
-                        </p>
-
+                     
                     </div>
 
                 </div>

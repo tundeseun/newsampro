@@ -1020,13 +1020,15 @@ a {
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    margin-top: -70px;
-    position: relative;
-    z-index: 2;
-}
 
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    align-items: stretch;
+}
 /* CARD */
 
 .team-card {
@@ -1100,7 +1102,11 @@ a {
 /* FEATURED */
 
 .featured-card {
-    grid-column: span 2;
+    grid-column: span 1 !important;
+
+    min-height: 760px !important;
+
+    width: 100% !important;
 }
 
 /* HIGHLIGHTS */
@@ -3674,4 +3680,311 @@ img {
     .modal-content blockquote {
         font-size: 18px;
     }
+}
+
+/* =========================================================
+   PREMIUM TEAM GRID
+========================================================= */
+
+.team-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    align-items: stretch;
+}
+
+/* =========================================================
+   TEAM CARD
+========================================================= */
+
+.team-card {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    min-height: 760px;
+
+    border-radius: 34px;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+    background:
+        linear-gradient(180deg,
+            #ffffff 0%,
+            #fff8f8 100%);
+
+    border: 1px solid rgba(180, 0, 0, 0.12);
+
+    box-shadow:
+        0 18px 50px rgba(0, 0, 0, 0.08);
+
+    transition: .45s ease;
+}
+
+/* REMOVE BIGGER CHAIRMAN CARD */
+
+.featured-card {
+    transform: none !important;
+
+    border: 1px solid rgba(180, 0, 0, 0.12);
+
+    box-shadow:
+        0 18px 50px rgba(0, 0, 0, 0.08);
+}
+
+.featured-card:hover {
+    transform:
+        translateY(-12px) !important;
+
+    box-shadow:
+        0 30px 70px rgba(180, 0, 0, 0.15);
+}
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+.team-card:hover {
+    transform:
+        translateY(-12px);
+
+    box-shadow:
+        0 30px 75px rgba(180, 0, 0, 0.16);
+}
+
+/* =========================================================
+   CARD HEADER
+========================================================= */
+
+.team-card-header {
+    height: 84px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 24px;
+
+    background:
+        linear-gradient(135deg,
+            #d70000,
+            #7a0000);
+
+    color: #fff;
+
+    font-size: 16px;
+    font-weight: 900;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+.dark-header {
+    background:
+        linear-gradient(135deg,
+            #620000,
+            #250000);
+}
+
+/* =========================================================
+   BODY
+========================================================= */
+
+.team-card-body {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+
+    padding: 42px 34px 38px;
+}
+
+/* =========================================================
+   AVATAR
+========================================================= */
+
+.team-avatar {
+    width: 165px;
+    height: 165px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+
+    font-size: 64px;
+    font-weight: 900;
+
+    color: #fff;
+
+    background:
+        linear-gradient(135deg,
+            #ff1e1e,
+            #b30000);
+
+    box-shadow:
+        0 20px 45px rgba(255, 0, 0, 0.20);
+}
+
+/* =========================================================
+   NAME
+========================================================= */
+
+.team-card-body h2 {
+    font-size: 34px;
+
+    line-height: 1.2;
+
+    color: #0f172a;
+
+    margin-bottom: 14px;
+
+    font-weight: 900;
+}
+
+/* =========================================================
+   ROLE
+========================================================= */
+
+.team-card-body h4 {
+    color: #b10000;
+
+    font-size: 20px;
+
+    margin-bottom: 28px;
+
+    font-weight: 800;
+}
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.team-card-body p {
+    max-width: 320px;
+
+    color: #444;
+
+    font-size: 17px;
+
+    line-height: 1.9;
+
+    margin-bottom: 42px;
+
+    flex-grow: 1;
+
+    display: flex;
+    align-items: center;
+}
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+.view-btn {
+    margin-top: auto;
+
+    min-width: 220px;
+
+    padding: 18px 30px;
+
+    border: none;
+
+    border-radius: 18px;
+
+    cursor: pointer;
+
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: 800;
+
+    background:
+        linear-gradient(135deg,
+            #ff1e1e,
+            #a10000);
+
+    box-shadow:
+        0 16px 40px rgba(255, 0, 0, 0.18);
+
+    transition: .35s ease;
+}
+
+.view-btn:hover {
+    transform:
+        translateY(-5px) scale(1.03);
+
+    box-shadow:
+        0 22px 50px rgba(255, 0, 0, 0.28);
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:1200px) {
+
+    .team-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+    .team-card {
+        min-height: auto;
+    }
+
+    .team-card-body {
+        padding: 36px 24px;
+    }
+
+    .team-avatar {
+        width: 120px;
+        height: 120px;
+
+        font-size: 46px;
+    }
+
+    .team-card-body h2 {
+        font-size: 28px;
+    }
+
+    .team-card-body p {
+        font-size: 16px;
+    }
+
+    .view-btn {
+        width: 100%;
+        min-width: unset;
+    }
+
 }
